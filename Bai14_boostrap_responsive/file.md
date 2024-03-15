@@ -1,0 +1,1 @@
+Thiết kế web hiển thị 1 dòng tiêu đề và 12 ảnh (lấy từ trang web của HVNN vnua.edu.vn). Trang web này sử dụng Bootstrap để thực hiện responsive. Với khung nhìn có chiều rộng >=1200px thì hiển thị 4 ảnh trên 1 hàng, số ảnh trên 1 hàng giảm dần theo chiều rộng màn hình

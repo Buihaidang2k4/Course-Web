@@ -1,0 +1,14 @@
+.card:hover,
+.card:hover img {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.hinh1,
+.hinh2,
+.hinh3,
+.hinh4 {
+    width: 200px;
+    object-fit: cover;
+    margin-left: 50px;
+}

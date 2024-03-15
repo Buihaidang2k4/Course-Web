@@ -1,0 +1,24 @@
+html,
+body {
+    padding: 0;
+    background-color: aqua;
+}
+
+
+/* 
+.container {
+    display: flex;
+    flex-wrap: wraps;
+}
+
+img {
+    width: auto;
+    height: 10rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 10px;
+    border-left: 10px;
+    border-radius: 50px;
+} */

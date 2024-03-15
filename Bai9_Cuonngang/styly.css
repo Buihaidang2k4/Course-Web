@@ -1,0 +1,15 @@
+menu {
+    background: #d9d7d5;
+    padding: 0.25rem;
+    /*  Kỹ thuật cuộn ngang */
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+span {
+    background: #767775;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+}

@@ -1,0 +1,78 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* menu */
+
+#menu {
+    position: fixed;
+    top: 0;
+    background-color: darkturquoise;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    position: sticky;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+@media (max-width: 576px) {
+    #menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu {
+        width: 49%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu {
+        width: 33%;
+    }
+}
+
+
+/* chatbox */
+
+.chatbox {
+    width: 300px;
+    height: 400px;
+    color: rgb(218, 207, 218);
+    background-color: darkslategrey;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input[type="chat"] {
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,64 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: auto;
+    height: 20rem;
+    margin-top: 10px;
+    margin-left: 13px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 5px;
+    border-left: 5px;
+    border-radius: 50px;
+}
+
+
+/* Khung hình  */
+
+@media only screen and (max-width: 576px) {
+    .box img {
+        /* hiển thị 1 ảnh  */
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen (min-width: 576px) and (max-width: 768px) {
+    .box-container img {
+        /* hiển thị 2 ảnh  */
+        width: 83.33%;
+    }
+}
+
+@media only screen (min-width: 768px) and (max-width: 992px) {
+    .box-container img {
+        /* hiển thị 3 ảnh */
+        width: 66.6%;
+    }
+}
+
+@media only screen (min-width: 992px) and (max-width: 1200px) {
+    .box-container img {
+        /* hiển thị 4 ảnh  */
+        width: 50%;
+    }
+}
+
+@media only screen (min-width: 1201px) {
+    .box-container img {
+        /* Hiển thị 6 ảnh  */
+        width: 16.6%;
+    }
+}

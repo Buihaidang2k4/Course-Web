@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(91, 64, 88);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    /* justify-self: start; */
+}
+
+h2{
+    text-align: center;
+}
